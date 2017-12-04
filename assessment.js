@@ -78,6 +78,8 @@
         anchor.className = 'twitter-hashtag-button';
         anchor.innerText = 'Tweet';
         tweetDivided.appendChild(anchor);
+        
+        twttr.widgets.load();        
     };
 
     /**
